@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.console * {
+    font-family: monospace;
+}
+
+.console {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #26272b;
+    color: #00ffea;
+    /* color: #c97ef2; */
+}
+
+.console-main{
+    color: #00ff8c;
+    /* color: #9c94a1; */
+    /* flex-grow: 1; */
+    box-sizing: border-box;
+    padding: 24px;
+    overflow-y: auto;
+}
+
+.console-input {
+    color: #00ff8c;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    outline: none; 
+    border: none;
+    border-top: 1px solid #333333;
+    background: rgba(255,255, 255, 0.05);
+
+}
+
+.console-user-input {
+    color: #00ff8c; 
+    background: rgba(255,255, 255, 0.03);
+    font-size: 17px;
+}
+
+.console-user-clicked {
+    color: #00ff8c; 
+    background: rgba(255,255, 255, 0.03);
+}
