@@ -1,5 +1,7 @@
+/* CSS to accompany index.html */
 body {
     margin: 0;
+    background: #26272b;
 }
 
 .console * {
@@ -7,19 +9,19 @@ body {
 }
 
 .console {
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    background: #26272b;
-    color: #00ffea;
+    background: #26272b; */
+    color: #00ff8c; 
     /* color: #c97ef2; */
 }
 
 .console-main{
     color: #00ff8c;
     /* color: #9c94a1; */
-    /* flex-grow: 1; */
+    flex-grow: 1;
     box-sizing: border-box;
     padding: 24px;
     overflow-y: auto;
@@ -27,7 +29,7 @@ body {
 
 .console-input {
     color: #00ff8c;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     box-sizing: border-box;
     padding: 5px;
     outline: none; 
@@ -47,3 +49,25 @@ body {
     color: #00ff8c; 
     background: rgba(255,255, 255, 0.03);
 }
+
+.about {
+    align-items: left;
+    justify-content: left;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    column-gap: 5px;
+    display: flex;
+
+    
+}
+
+.image {
+    float: left;
+}
+
+.text {
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
