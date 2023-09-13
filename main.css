@@ -1,11 +1,12 @@
 /* CSS to accompany index.html */
+
 body {
     margin: 0;
     background: #26272b;
     overflow-x: auto;
     overflow-y: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .console * {
@@ -60,7 +61,6 @@ body {
     justify-content: left;
     grid-template-columns: 1fr, 1fr, 1fr;
     column-gap: 5px;
-    
 }
 
 .image {
