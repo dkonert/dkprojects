@@ -90,6 +90,7 @@ body {
 .group {
     float: right;
     padding-right: 50px;
+    display: flex;
 }
 
 .text-pad {
