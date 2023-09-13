@@ -8,14 +8,8 @@ body {
     font-family: monospace;
 }
 
-.console {
-    /* width: 100vw;
-    height: 100vh;
-    display: flex; 
-    flex-direction: column;
-    background: #26272b; */
+.console {  
     color: #00ff8c; 
-    /* color: #c97ef2; */
 }
 
 .console-main{
