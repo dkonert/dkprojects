@@ -2,15 +2,17 @@
 body {
     margin: 0;
     background: #26272b;
-    overflow-x: auto;
-    overflow-y: auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
 }
 
 .console * {
     font-family: monospace;
-    overflow-y: auto;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    flex-wrap: wrap;
 }
 
 .console {  
@@ -26,7 +28,7 @@ body {
     box-sizing: border-box;
     padding: 24px;
     overflow-y: scroll;
-    overflow-x:scroll;
+    flex-wrap: wrap;
 }
 
 .console-input {
@@ -57,11 +59,6 @@ body {
     justify-content: left;
     grid-template-columns: 1fr, 1fr, 1fr;
     column-gap: 5px;
-    overflow-y: auto;
-    overflow-x: auto;
-    display: flex;
-    flex-wrap:wrap;
-
     
 }
 
@@ -90,7 +87,6 @@ body {
 .group {
     float: right;
     padding-right: 50px;
-    display: flex;
 }
 
 .text-pad {
