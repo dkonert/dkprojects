@@ -50,7 +50,7 @@ body {
     background: rgba(255,255, 255, 0.03);
 }
 
-.about {
+.side-by-side {
     align-items: left;
     justify-content: left;
     grid-template-columns: 1fr, 1fr, 1fr;
@@ -62,12 +62,33 @@ body {
 
 .image {
     float: left;
+    padding-left: 20px;
 }
 
 .text {
     float: left;
     padding-left: 20px;
     padding-top: 20px;
+    padding-right: 20.5px;
 }
 
+#credits {
+    color: #00ffea;
+    font-size: 12px;
+
+}
+
+#me {
+    padding-left: 15px
+}
+
+.group {
+    float: right;
+    padding-right: 50px
+}
+
+.text-pad {
+    padding-left: 45px;
+    padding-right: 100px;
+}
 
