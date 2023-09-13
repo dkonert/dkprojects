@@ -10,6 +10,9 @@ body {
 
 .console * {
     font-family: monospace;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    flex-wrap: wrap;
 }
 
 .console {  
@@ -22,7 +25,8 @@ body {
     flex-grow: 1;
     box-sizing: border-box;
     padding: 24px;
-    overflow-y: auto;
+    overflow-y: scroll;
+    overflow-x:scroll;
 }
 
 .console-input {
