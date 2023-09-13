@@ -11,12 +11,12 @@ body {
 .console * {
     font-family: monospace;
     overflow-y: scroll;
-    overflow-x: scroll;
-    flex-wrap: wrap;
 }
 
 .console {  
     color: #00ff8c; 
+    overflow-y: scroll;
+
 }
 
 .console-main{
@@ -57,7 +57,8 @@ body {
     justify-content: left;
     grid-template-columns: 1fr, 1fr, 1fr;
     column-gap: 5px;
-    display: flex;
+    overflow-y: scroll;
+    overflow-x: scroll;
 
     
 }
@@ -86,7 +87,7 @@ body {
 
 .group {
     float: right;
-    padding-right: 50px
+    padding-right: 50px;
 }
 
 .text-pad {
